@@ -1,4 +1,4 @@
-/* Exercícios de interpretação de código */
+/* /* Exercícios de interpretação de código */
 /* const bool1 = true
 const bool2 = false
 const bool3 = !bool2
@@ -45,7 +45,7 @@ const soma = ( Number(primeiroNumero) + Number(segundoNumero))
 console.log(soma) */
 
 //orgulhoso de ter conseguido kkkkkk
-/* ------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------------------------ES----------------------------------------------- */
 /* 
  Exercícios de escrita de código
 1-
@@ -113,7 +113,7 @@ const segundoNumero = prompt("fale um numero");
 console.log("O primeiro numero é maior que segundo?" , Number(primeiroNumero) > Number(segundoNumero));
 console.log("O primeiro numero é igual ao segundo?" , Number(primeiroNumero) === Number(segundoNumero));
 console.log("O primeiro numero é divisível pelo segundo?" , Number(primeiroNumero) % Number(segundoNumero) === 0);
-console.log("O segundo numero é divisível pelo primeiro??" , Number(segundoNumero) % Number(primeiroNumero) === 0);
+console.log("O segundo numero é divisível pelo primeiro??" , Number(segundoNumero) % Number(primeiroNumero) === 0); */
 
 
 //nao consigui fazer as 2 ultimas linhas sairem true or false/// tive q pedir ajuda///   
@@ -131,4 +131,16 @@ console.log("O segundo numero é divisível pelo primeiro??" , Number(segundoNum
 
 
 
-4
+const  nome = "Chijo"
+const nomeAlterado = nome.ToLowerCase()
+
+console.log(nomeAll)
+
+const frase = "Hoje assisti chaves adoro chaves!"
+const novaFrase = frase.replaceAll("Chaves , Tarzan")
+
+console.log(novaFrase)
+
+const instrutoras = ["Amanda" , "Lais"]
+instrutores.push("Chijo")
+console.log(instrutores)
