@@ -86,14 +86,23 @@ function retornaNPrimeirosPares(n) {
    }
    return array
 }
-const n = 5 
+const n = n 
 console.log(retornaNPrimeirosPares(n))
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
-}
-
+  
+    if(ladoA< (ladoB+ladoC) && ladoB < (ladoA+ladoC) && ladoC < (ladoA+ladoB)){
+        if(ladoA == ladoB && ladoB == ladoC){
+        return "Equilátero"
+        } else if ((ladoA == ladoB  || ladoA == ladoC || ladoC == ladoB)){
+         return "Isósceles"
+        }else{
+        return "Escaleno"
+    }
+    }
+    }
+    classificaTriangulo(ladoA, ladoB, ladoC)
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
   
