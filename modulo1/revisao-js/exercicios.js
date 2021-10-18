@@ -76,8 +76,18 @@ return { maiorNumero, maiorDivisivelPorMenor, diferenca}
 }
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+   let i = 0 
+   const array = []
+   let par = 0
+   while(i < n ){
+       array.push(par)
+       par = par + 2
+       i++
+   }
+   return array
 }
+const n = 5 
+console.log(retornaNPrimeirosPares(n))
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
