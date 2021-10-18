@@ -50,19 +50,30 @@ retornaNumerosParesElevadosADois(array)
 function retornaMaiorNumero(array) {
     let i = 0
     let maior = -Infinity
-    while (i < array.lengh) {
-        if (array[i] > maior) {
-             maior = array[i]
-        }
-  i++
+    while (i < array.length){
+    if(array[i] > maior){
+      maior = array[i]
+    }
+    i++
 }
 return maior
 }
+retornaMaiorNumero(array)
+
+
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+if(num1 > num2){
+    maiorNumero = num1
+    menorNumero = num2
+} else {
+    maiorNumero = num2
+    menorNumero = num1
 }
-
+let maiorDivisivelPorMenor = maiorNumero%menorNumero === 0 
+let diferenca = maiorNumero - menorNumero
+return { maiorNumero, maiorDivisivelPorMenor, diferenca}
+}
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
    
