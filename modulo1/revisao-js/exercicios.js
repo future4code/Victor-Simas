@@ -105,8 +105,14 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
     classificaTriangulo(ladoA, ladoB, ladoC)
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+    const arrayOrdenado = array.sort((a, b) => a -b);
+
+    const segundoMaiorValor = arrayOrdenado[arrayOrdenado.length -2];
+    const segundoMenorValor = arrayOrdenado[1];
+    const arrayResultado = [segundoMaiorValor, segundoMenorValor];
+ return arrayResultado
 }
+retornaSegundoMaiorESegundoMenor(array)
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
@@ -130,8 +136,13 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
-
-}
+    return contas.map((conta) => {
+         let soma = conta.compras.reduce((acc,cur) => acc+ cur , 0);
+         let saldo = conta.saldoTotal
+         return {...conta, saldoTotal: saldo - soma, compras: []}
+    })
+    
+    }
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
