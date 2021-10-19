@@ -116,23 +116,33 @@ retornaSegundoMaiorESegundoMenor(array)
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
-}
+    return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores.join(", ")}.`
+}  
 
+retornaChamadaDeFilme(array)
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
-}
+    const novaPessoa = {
+    ...pessoa,
+    nome:`ANÔNIMO`
+    }
+    return novaPessoa
+ }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
-}
-
+   const pessoasPermitidas = pessoas.filter((pessoas) =>{
+       return pessoas.altura>=1.5 && pessoas.idade>14 && pessoas.idade<60
+   })
+    return pessoasPermitidas
+}   
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
-}
+    const pessoasNaoPermitidas = pessoas.filter((pessoas) =>{
+        return pessoas.altura<1.5 || pessoas.idade<=14 || pessoas.idade>60
+    })
+     return pessoasNaoPermitidas
+ }   
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
@@ -146,10 +156,8 @@ function retornaContasComSaldoAtualizado(contas) {
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
 }
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-   
 }
