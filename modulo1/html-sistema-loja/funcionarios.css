@@ -1,0 +1,61 @@
+h2{text-align:center}
+div{text-align:center}
+tr{text-align:center}
+
+h1
+{
+color : hsl(0, 0%, 0%)
+
+}
+
+
+
+div{text-align:center}
+
+tr{text-align:center}
+
+body {
+    background-color: #791674;
+    padding: 0;
+    margin:3px
+    
+  }
+
+
+  footer {
+     line-height: 100px;
+    background-color: rgb(73, 4, 4);
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    bottom: 0;
+    position: absolute;
+}
+
+div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+
+  table{
+      margin:auto
+  }
+
+  a{
+    background-color: rgb(44, 20, 20);
+    color: blanchedalmond;
+    width:104px;
+    _width:120px; /* hack para IE */
+    background:#470303;
+    padding:5px;
+    border:3px inset #cccccc;
+    }
+
+    h2{
+        background-color: rgb(62, 27, 160);
+    }
+    p{
+        font-size:larger
+       
+    }
