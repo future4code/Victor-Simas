@@ -1,7 +1,7 @@
 
   
 
-h1{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+h1{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 
 
 
@@ -21,13 +21,13 @@ body {
 
 
   footer {
-     line-height: 100px;
+     line-height: 20px;
     background-color: rgb(57, 4, 73);
     width: 100%;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     bottom: 0;
-    position: absolute;
+    position:relative;
 }
 
 div {
