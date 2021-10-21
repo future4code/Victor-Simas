@@ -1,4 +1,4 @@
-/** 
+/** /** 
   *
   *  ESTILOS GERAIS 
   *
@@ -99,6 +99,7 @@ div:last-child {
 }
 
 table {
+    margin: auto;
     width: 60%;
 }
 
@@ -128,4 +129,8 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+
+a{
+    margin: auto;
 }
