@@ -26,7 +26,7 @@ button:focus {
 }
 
 img {
-    width: 100px;
+    width: 65px;
 }
 
 div>p:first-child {
@@ -34,21 +34,27 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+    background: rgb(255, 255, 255);
 }
 
 .botao-amarelo {
-    background-color: #ffaf43;
-    width: 250px;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 20px;
-    color: white;
-}
+    
+        font-family: arial;
+        font-size:14px;
+        font-weight:700;
+        text-transform: uppercase;
+        border:none;
+        padding:10px;
+        cursor: pointer;
+        display:inline-block;
+        text-decoration: none;
+      }
+
 
 .botao-amarelo:hover {
-    background-color: #c44f00;
-}
+    background:#c7c0c0;
+    box-shadow:0 5px 0 #668666;
+  }
 
 .container {
     height: 500px;
@@ -67,9 +73,10 @@ div img {
   **/
 
 #container-de-descricao {
+   text-align: center;
     background-color: #2274a5;
     color: white;
-    padding: 100px 650px;
+    padding: 100px 800px;
 }
 
 #container-de-descricao>ol {
@@ -99,7 +106,8 @@ div:last-child {
 }
 
 table {
-    margin: auto;
+    text-align: center;
+margin: auto;
     width: 60%;
 }
 
@@ -108,29 +116,99 @@ td button {
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    color: black;
+    color: rgb(206, 85, 85);
 }
 
 .container-do-search {
     margin-top: 20px;
-    height: 100px;
+    height: 50px;
+    
+    
 }
 
 
 #back-button {
-    background-color: white;
-    width: 100px;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 10px;
-    color: black;
-}
+
+    font-family: arial;
+    font-size:14px;
+    font-weight:700;
+    text-transform: uppercase;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+  }
+
 
 #back-button:hover {
-    background-color: #635a3d
+  
+    background:#c7c0c0;
+    box-shadow:0 5px 0 #668666;
+  }
 }
 
 a{
-    margin: auto;
+ 
+    margin:fixed;
+}
+
+.icone{
+    width: 20px;
+}
+
+
+.botao-amarelo{
+
+    font-family: arial;
+    font-size:14px;
+    font-weight:700;
+    text-transform: uppercase;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+  }
+
+#voltar{
+    margin-left: auto;
+padding: 400px;
+
+
+}
+#container-para-voltar{
+   position:center;
+   text-align: center;
+    margin: 50px 910px;
+}
+
+#coisinha{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+p{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+li{ 
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+
+
+}
+.icone{
+    
+    font-family: arial;
+    font-size:14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+.icone:hover {
+background:#c7c0c0;
+box-shadow:0 5px 0 #668666;
 }
