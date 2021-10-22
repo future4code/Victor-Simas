@@ -1,0 +1,214 @@
+/** /** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 65px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    background: rgb(255, 255, 255);
+}
+
+.botao-amarelo {
+    
+        font-family: arial;
+        font-size:14px;
+        font-weight:700;
+        text-transform: uppercase;
+        border:none;
+        padding:10px;
+        cursor: pointer;
+        display:inline-block;
+        text-decoration: none;
+      }
+
+
+.botao-amarelo:hover {
+    background:#c7c0c0;
+    box-shadow:0 5px 0 #668666;
+  }
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.icone {
+    height: 15px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+   text-align: center;
+    background-color: #2274a5;
+    color: white;
+    padding: 100px 800px;
+}
+
+#container-de-descricao>ol {
+    padding: 15px 0px;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+margin: auto;
+    width: 60%;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(206, 85, 85);
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 50px;
+    
+    
+}
+
+
+#back-button {
+
+    font-family: arial;
+    font-size:14px;
+    font-weight:700;
+    text-transform: uppercase;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+  }
+
+
+#back-button:hover {
+  
+    background:#c7c0c0;
+    box-shadow:0 5px 0 #668666;
+  }
+}
+
+a{
+ 
+    margin:fixed;
+}
+
+.icone{
+    width: 20px;
+}
+
+
+.botao-amarelo{
+
+    font-family: arial;
+    font-size:14px;
+    font-weight:700;
+    text-transform: uppercase;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+  }
+
+#voltar{
+    margin-left: auto;
+padding: 400px;
+
+
+}
+#container-para-voltar{
+   position:center;
+   text-align: center;
+    margin: 50px 910px;
+}
+
+#coisinha{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+p{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+li{ 
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+
+
+}
+.icone{
+    
+    font-family: arial;
+    font-size:14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+.icone:hover {
+background:#c7c0c0;
+box-shadow:0 5px 0 #668666;
+}
