@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+head {
+    display: none;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 80px 1fr 70px;
+    align-items: flex-start;
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(216, 216, 216), rgb(83, 80, 80));
+}
+
+header {
+    background-image: linear-gradient(rgb(252, 253, 253), rgb(167, 167, 167), rgb(255, 255, 255));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.tituto-cabecalho {
+    color: black;
+    text-decoration: none;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 80px 1fr 70px;
+    align-items: flex-start;
+    background-image: radial-gradient(circle, rgb(66, 66, 66), rgb(163, 29, 29), rgb(83, 80, 80));
+}
